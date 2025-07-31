@@ -20,33 +20,16 @@ Comparative analysis of MobileNetV2 and ResNet50
 
 ### 🛠️ Tech Stack
 
-Tool/Library
+| Category            | Tools / Libraries                                 | Purpose                                 |
+|---------------------|---------------------------------------------------|-----------------------------------------|
+| Language            | Python 3.8+                                       | Core programming                        |
+| Deep Learning       | TensorFlow, Keras                                 | Model building & training               |
+| Computer Vision     | OpenCV                                            | Real-time face detection & video stream |
+| Data Handling       | NumPy, Scikit-learn                               | Preprocessing, evaluation               |
+| Visualization       | Matplotlib                                        | Training metrics and plots              |
+| Annotation Tool     | LabelImg                                          | Manual labeling of custom images        |
+| Environment & Tools | Jupyter Notebook, VS Code                         | Development & experimentation           |
 
-Purpose
-
-Python 3.8+
-
-Programming Language
-
-TensorFlow/Keras
-
-Deep Learning & Transfer Learning
-
-OpenCV
-
-Real-time video processing
-
-Scikit-learn
-
-Model evaluation and preprocessing
-
-Matplotlib
-
-Plotting training metrics
-
-LabelImg
-
-Image annotation (for custom labels)
 
 ### 🗂️ Directory Structure
 
