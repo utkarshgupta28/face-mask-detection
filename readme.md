@@ -1,0 +1,106 @@
+# Face Mask Detection using Transfer Learning 😷
+
+A deep learning-based computer vision project that classifies whether individuals are wearing face masks correctly, incorrectly, or not at all. This solution leverages transfer learning with MobileNetV2 and ResNet50 to achieve real-time mask detection, addressing safety concerns in public and healthcare settings.
+
+## 🚀 Overview
+
+The system uses pre-trained convolutional neural networks (CNNs) to detect face masks from images and live video streams. Two architectures—MobileNetV2 and ResNet50—were fine-tuned and compared based on performance and efficiency. Real-time video classification was implemented using OpenCV.
+
+### 🧠 Key Features
+
+Binary image classification: Mask vs No Mask
+
+Real-time webcam inference with bounding boxes
+
+Data augmentation and preprocessing
+
+Model training using Transfer Learning
+
+Comparative analysis of MobileNetV2 and ResNet50
+
+### 🛠️ Tech Stack
+
+Tool/Library
+
+Purpose
+
+Python 3.8+
+
+Programming Language
+
+TensorFlow/Keras
+
+Deep Learning & Transfer Learning
+
+OpenCV
+
+Real-time video processing
+
+Scikit-learn
+
+Model evaluation and preprocessing
+
+Matplotlib
+
+Plotting training metrics
+
+LabelImg
+
+Image annotation (for custom labels)
+
+### 🗂️ Directory Structure
+
+face-mask-detection/
+├── src/                        # Source code
+│   ├── train_mask_detector.py
+│   ├── train_mask_detector_resnet.py
+│   └── detect_mask_video.py
+│
+├── models/                    # Trained .h5 models (MobileNet & ResNet)
+├── plots/                     # Loss/Accuracy training graphs
+├── dataset/                   # Image dataset (excluded from repo)
+├── README.md
+├── requirements.txt
+└── .gitignore
+
+###🏋️‍♂️ Model Training
+
+🔹 MobileNetV2
+
+python src/train_mask_detector.py \
+  --dataset dataset \
+  --model models/mask_detector_mobilenet.model \
+  --plot plots/mobilenet_plot.png
+
+🔹 ResNet50
+
+python src/train_mask_detector_resnet.py \
+  --dataset dataset \
+  --model models/mask_detector_resnet.model \
+  --plot plots/resnet_plot.png
+
+### 🎥 Real-Time Inference
+
+After training, use the script below to activate your webcam and perform mask detection:
+
+python src/detect_mask_video.py
+
+
+### 📈 Model Evaluation
+
+| Model       | Training Time | Accuracy       | Inference Speed     | Remarks                            |
+|-------------|---------------|----------------|----------------------|------------------------------------|
+| MobileNetV2 | ⏱️ Fast        | ✅ High         | ⚡ Real-time capable | Lightweight and optimized for speed |
+| ResNet50    | 🐢 Slower      | ⚠️ Moderate     | 🐌 Slower           | More robust but heavier to deploy   |
+
+
+### 📜 Dataset Sources
+
+Kaggle (open-source datasets)
+
+GettyImages (licensed samples)
+
+Custom-labeled images using LabelImg
+
+Preprocessing included outlier detection and cleaning
+

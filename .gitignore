@@ -1,0 +1,75 @@
+# ---------------------
+# Python Bytecode & Caches
+# ---------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---------------------
+# Environment Files
+# ---------------------
+.env
+.venv/
+*.env
+*.egg-info/
+Pipfile.lock
+
+# ---------------------
+# IDE & Editor Settings
+# ---------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ---------------------
+# Jupyter Notebooks
+# ---------------------
+.ipynb_checkpoints/
+
+# ---------------------
+# OS Files
+# ---------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------
+# Logs & Outputs
+# ---------------------
+*.log
+logs/
+
+# ---------------------
+# Deep Learning Model Artifacts
+# ---------------------
+*.h5
+*.ckpt
+*.pb
+*.tflite
+*.onnx
+*.pt
+*.pth
+*.safetensors
+
+# ---------------------
+# Training Plots or Reports
+# ---------------------
+plots/
+*.png
+
+# ---------------------
+# Large or Auto-Generated Files
+# ---------------------
+.cache/
+.anaconda/
+datasets/
+checkpoints/
+models/
+
+# ---------------------
+# Hugging Face or Transformers cache
+# ---------------------
+.huggingface/
+~$*
