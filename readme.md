@@ -42,7 +42,7 @@ face-mask-detection/
 ├── requirements.txt  # Python dependencies
 ├── .gitignore        # Ignored files/folders
 └── README.md         # Project documentation
-
+```
 
 ### 🏋️‍♂️ Model Training
 
