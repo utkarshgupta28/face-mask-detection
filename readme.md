@@ -8,15 +8,15 @@ The system uses pre-trained convolutional neural networks (CNNs) to detect face 
 
 ### 🧠 Key Features
 
-Binary image classification: Mask vs No Mask
+- Binary image classification: Mask vs No Mask
 
-Real-time webcam inference with bounding boxes
+- Real-time webcam inference with bounding boxes
 
-Data augmentation and preprocessing
+- Data augmentation and preprocessing
 
-Model training using Transfer Learning
+- Model training using Transfer Learning
 
-Comparative analysis of MobileNetV2 and ResNet50
+- Comparative analysis of MobileNetV2 and ResNet50
 
 ### 🛠️ Tech Stack
 
@@ -63,7 +63,6 @@ python src/train_mask_detector_resnet.py \
 ### 🎥 Real-Time Inference
 
 After training, use the script below to activate your webcam and perform mask detection:
-
 python src/detect_mask_video.py
 
 
