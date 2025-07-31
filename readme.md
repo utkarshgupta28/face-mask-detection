@@ -76,11 +76,11 @@ python src/detect_mask_video.py
 
 ### 📜 Dataset Sources
 
-Kaggle (open-source datasets)
+- Kaggle (open-source datasets)
 
-GettyImages (licensed samples)
+- GettyImages (licensed samples)
 
-Custom-labeled images using LabelImg
+- Custom-labeled images using LabelImg
 
-Preprocessing included outlier detection and cleaning
+- Preprocessing included outlier detection and cleaning
 
