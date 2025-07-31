@@ -33,20 +33,18 @@ Comparative analysis of MobileNetV2 and ResNet50
 
 ### 🗂️ Directory Structure
 
+```text
 face-mask-detection/
-├── src/                        # Source code
-│   ├── train_mask_detector.py
-│   ├── train_mask_detector_resnet.py
-│   └── detect_mask_video.py
-│
-├── models/                    # Trained .h5 models (MobileNet & ResNet)
-├── plots/                     # Loss/Accuracy training graphs
-├── dataset/                   # Image dataset (excluded from repo)
-├── README.md
-├── requirements.txt
-└── .gitignore
+├── src/              # Model training and inference scripts
+├── models/           # Saved MobileNetV2 and ResNet50 models (.h5)
+├── plots/            # Training graphs (accuracy/loss)
+├── dataset/          # Image dataset (not included in repo)
+├── requirements.txt  # Python dependencies
+├── .gitignore        # Ignored files/folders
+└── README.md         # Project documentation
 
-###🏋️‍♂️ Model Training
+
+### 🏋️‍♂️ Model Training
 
 🔹 MobileNetV2
 
