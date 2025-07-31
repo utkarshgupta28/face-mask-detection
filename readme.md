@@ -62,8 +62,9 @@ python src/train_mask_detector_resnet.py \
 
 ### 🎥 Real-Time Inference
 
-After training, use the script below to activate your webcam and perform mask detection:
---python src/detect_mask_video.py
+After training, use the script below to activate your webcam and perform mask detection: 
+
+python src/detect_mask_video.py
 
 
 ### 📈 Model Evaluation
